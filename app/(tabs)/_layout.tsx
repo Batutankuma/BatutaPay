@@ -1,5 +1,5 @@
 import { Tabs } from "expo-router";
-import { Home, Settings } from "iconoir-react-native";
+import { Bank, Group, Home, Settings } from "iconoir-react-native";
 
 export default function RootTabs() {
     return (
@@ -11,7 +11,9 @@ export default function RootTabs() {
             headerStyle: { backgroundColor: '#d6d4ce' }
         }}>
             <Tabs.Screen name="home" options={{ title: 'Home', tabBarIcon: ({ color }) => <Home height={20} width={20} color={color} /> }} />
-            <Tabs.Screen name="settings" options={{ tabBarIcon: ({ color }) => <Settings height={20} width={20} color={color} /> }} />
+            <Tabs.Screen name="story" options={{ title: 'Transaction', tabBarIcon: ({ color }) => <Bank height={20} width={20} color={color} /> }} />
+            <Tabs.Screen name="amis" options={{ title: 'Amis', tabBarIcon: ({ color }) => <Group height={20} width={20} color={color} /> }} />
+            <Tabs.Screen name="settings" options={{ title: 'Settings', tabBarIcon: ({ color }) => <Settings height={20} width={20} color={color} /> }} />
         </Tabs>
     )
 }
