@@ -5,10 +5,11 @@ import { View, Text, SafeAreaView, StyleSheet } from "react-native";
 export default function HomePage() {
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.header_title}>Welcome, Sael Batuta </Text>
+            <Text>welcome</Text>
+            <Text style={styles.header_title}>Sael Batuta </Text>
             <Text style={styles.balance_label}>$ 8,000</Text>
             <Text>solde</Text>
-            <Text>Statistique Compte</Text>
+            <Text style={{fontWeight:'900',marginVertical:20}}>Statistique Compte</Text>
             <View style={{ height: 400, flexDirection: 'row' }}>
                 <View style={{ height: 400, flex: 1 }}>
                     <CardBalanceGraph/>
@@ -26,15 +27,15 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 10,
-        backgroundColor: 'white'
+        backgroundColor: '#d6d4ce'
     },
     header_title: {
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: "600",
         marginBottom: 10,
     },
     balance_label: {
-        fontSize: 25,
+        fontSize: 35,
         marginTop: 10,
         fontWeight: '800'
     }
