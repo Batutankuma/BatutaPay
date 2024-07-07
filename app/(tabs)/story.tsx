@@ -1,9 +1,15 @@
-import { View, Text, SafeAreaView, StyleSheet } from "react-native";
+import ListView from "@/components/ListView";
+import { fakeTransferts } from "@/models/models";
+import { View, Text, SafeAreaView, StyleSheet, FlatList } from "react-native";
 
 export default function HistoryPage() {
     return (
         <SafeAreaView style={styles.container}>
-            <Text></Text>
+            <FlatList
+                data={fakeTransferts}
+                keyExtractor={(item) => item.id}
+                renderItem={({ item }) => <ListView item={item} />}
+            />
         </SafeAreaView>
     )
 }
@@ -11,6 +17,6 @@ export default function HistoryPage() {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#d6d4ce',
-        flex:1
+        flex: 1
     }
 })
