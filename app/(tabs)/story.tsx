@@ -1,9 +1,16 @@
-import { View,Text } from "react-native";
+import { View, Text, SafeAreaView, StyleSheet } from "react-native";
 
 export default function HistoryPage() {
-    return(
-        <View>
-            <Text>Settings</Text>
-        </View>
+    return (
+        <SafeAreaView style={styles.container}>
+            <Text></Text>
+        </SafeAreaView>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: '#d6d4ce',
+        flex:1
+    }
+})
