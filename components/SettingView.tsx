@@ -2,12 +2,12 @@ import { Transfert } from "@/models/models";
 import { PiggyBank, Settings } from "iconoir-react-native";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function SettingView({label}:{label:string}) {
+export default function SettingView({label,Icons}:{label:string,Icons:React.ReactNode}) {
     return (
         <View style={styles.container}>
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                 <View style={{height: 40, width: 40, justifyContent: 'center', alignItems: 'center' }}>
-                    <Settings height={24} width={24} color="black" />
+                    {Icons}
                 </View>
             </View>
             <View style={{ flex: 3, justifyContent: 'center', alignItems: 'flex-start' }}>
