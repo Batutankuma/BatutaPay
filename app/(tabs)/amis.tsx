@@ -3,9 +3,10 @@ import { View, Text, StyleSheet, SafeAreaView, FlatList } from "react-native";
 import * as Contacts from 'expo-contacts';
 import { ContactModel, getArrayContact } from "@/models/contact_models";
 import { ListContact } from "@/components/ListContact";
+import { FlashList } from "@shopify/flash-list";
 
 export default function AmisPage() {
-    const [data,setData] = useState<ContactModel[]>([])
+    const [data, setData] = useState<ContactModel[]>([])
     useEffect(() => {
         (async () => {
             try {
@@ -27,8 +28,8 @@ export default function AmisPage() {
         <SafeAreaView style={styles.container}>
             <FlatList
                 data={data}
-                keyExtractor={(item)=> item.id.toString()}
-                renderItem={({item})=> <ListContact item={item}/>}
+                keyExtractor={(item) => item.id.toString()}
+                renderItem={({ item }) => <ListContact item={item} />}
             />
         </SafeAreaView>
     )
