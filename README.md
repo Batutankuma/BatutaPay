@@ -1,4 +1,29 @@
-# Welcome to your Expo app 👋
+# Welcome to your BATUTAPAY 👋
+
+# BatutaPay
+
+**Découvrez BatutaPay, votre application mobile de transfert d'argent intuitive et sécurisée !**
+
+Simplifiez vos transactions financières avec BatutaPay, l'application mobile révolutionnaire conçue pour faciliter les transferts d'argent avec les personnes de votre répertoire. Que vous souhaitiez envoyer de l'argent à des amis, à la famille, ou même gérer des dettes et des remboursements, BatutaPay est la plateforme fiable et efficace qu'il vous faut.
+
+## Pourquoi choisir BatutaPay ?
+
+- **Transferts Simples et Rapides :** 
+  - Envoyez de l'argent instantanément à toute personne figurant dans votre répertoire de contacts. Plus besoin de vous soucier des longues démarches administratives !
+
+- **Gestion des Dettes Facilitées :** 
+  - Gardez une trace de vos prêts et remboursements en un clin d'œil. BatutaPay vous aide à rester organisé et à éviter les malentendus financiers.
+
+- **Sécurité Maximale :** 
+  - Profitez d'une sécurité de niveau bancaire avec un cryptage de bout en bout pour protéger vos transactions et vos données personnelles.
+
+- **Expérience Utilisateur Intuitive :** 
+  - Une interface conviviale et facile à utiliser, conçue pour rendre chaque transaction fluide et sans effort.
+
+Rejoignez la communauté BatutaPay dès aujourd'hui et découvrez une nouvelle manière de gérer vos finances, en toute simplicité et sécurité. Envoyez, recevez, et gérez votre argent comme jamais auparavant !
+
+**BatutaPay – Parce que chaque transaction compte.**
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
